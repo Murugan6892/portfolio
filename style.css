@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+  html{
+    scroll-behavior: smooth;
+  }
+
+section {
+  scroll-margin-top: 130px;
+}
+
+.heading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+ align-items: center;
+ padding-bottom: 20px;
+ padding-top: 20px;
+ color: #007bff;
+ text-decoration-line: underline;
+}
+
+.container { 
+  position:fixed;
+  background: #333; 
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  z-index: 2;
+}
+  
+
+.options {
+ display: flex;
+ justify-content: center;
+ list-style: none;
+ gap: 20px;
+}
+
+ .options a{
+  color: white;
+  text-decoration: none;  
+}
+
+.options a:hover {
+  text-decoration-line:underline;
+  color: white;
+}
+
+
+.myphoto{
+  width: 250px;
+  height: 300px;
+  border-radius: 10%;
+}
+
+.aboutcontent{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.aboutpadding{
+padding-top: 120px; 
+}
+
+.resumecontainer{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+
+.download-btn {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: #0056b3;
+}
+
+.experiencebox{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+  gap: 40px;
+  padding-bottom: 20px;
+}
+
+.exp{
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+  margin-left: 100px;
+}
+
+.expcontent{
+  flex: 2;
+  justify-content: center;
+}
+
+.projectcontent{
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 1000px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  padding-bottom: 40px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  z-index: 1;
+  }
+
+  .projectcontent:hover{
+    position: relative;
+    transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .qualificontent{
+    display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  }
+
+  .degree{
+    color: #007bff;
+
+  }
+
+  .contactcontent{
+  padding-bottom: 40px;
+  }
+
+  .contactspace{
+    margin-right: 20px ;
+  }
+
+  .footer{
+    background: #333; 
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  }
+
+  .footercontent{
+     justify-content: center;
+  text-align: center;
+  padding: 20px;
+  }
